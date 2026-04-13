@@ -70,3 +70,4 @@ document.querySelectorAll('.project-card').forEach(card => {
     setTimeout(() => { card.style.transform = ''; }, 150);
   });
 });
+
