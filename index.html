@@ -1,188 +1,370 @@
 <!DOCTYPE html>
+
 <html lang="es">
+
 <head>
+
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Portafolio</title>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
+
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
+
 <body>
 
+
+
 <!-- NAV -->
+
 <nav>
+
   <a href="#" class="nav-logo">Mi Portafolio</a>
+
   <ul class="nav-links">
+
     <li><a href="#sobre-mi">Sobre mí</a></li>
+
     <li><a href="#proyectos">Proyectos</a></li>
+
     <li><a href="#educacion">Educación</a></li>
+
     <li><a href="#contacto">Contacto</a></li>
+
   </ul>
+
 </nav>
 
+
+
 <!-- HERO -->
+
 <section class="hero">
+
   <div class="hero-left">
+
     <span class="hero-tag">Portafolio</span>
+
     <h1 class="hero-name">Juan Esteban<br><em>Gonzalez Castro</em></h1>
+
     <p class="hero-role">Estudiante de Desarrollo de Software y Ciberseguridad</p>
+
     <p class="hero-bio">Actualmente cursando el 1° semestre, y enfocado en desarrollo full-stack y seguridad informática.</p>
+
     <div class="hero-btns">
+
       <a href="#proyectos" class="btn btn-primary">Ver proyectos ↓</a>
+
       <a href="#contacto" class="btn btn-outline">Contáctame</a>
+
     </div>
+
   </div>
+
   <div class="hero-right">
-  <img src="20260220205414183~2.jpg" 
+
+  <img src="20260220205414183~2.jpg"
+
        alt="Foto de perfil"
+
        style="width:100%; height:100%; object-fit:cover; object-position:center top; filter:grayscale(20%);">
+
 </div>
-  
+
+ 
+
   </div>
+
   <div class="scroll-indicator">
+
     <span>Scroll</span>
+
     <div class="scroll-line"></div>
+
   </div>
+
 </section>
+
+
 
 <!-- SOBRE MÍ -->
+
 <section id="sobre-mi">
+
   <div class="section-header reveal">
+
     <span class="section-number">01 — Sobre mí</span>
+
     <h2 class="section-title">Curiosidad, código<br>y <em>creatividad</em></h2>
+
   </div>
+
   <div class="about-grid">
+
     <div class="about-text reveal">
-      <p>Soy estudiante den Tecnologo de Desarrollo de Software en la Universidad Tecnológica de Pereira. Me especializo en desarrollo web con React y Node.js.</p>
-      <p> Pues realmente me interesa profundamente la intersección entre tecnología y diseño. Y de tener la seguridad de informaciones de empresas y personas.</p>
-      <p>Fuera del código, me gusta hacer ejercicio y leer libros historias.</p>
+
+      <p>Soy estudiante de Tecnologico de Desarrollo de Software en la Universidad Tecnológica de Pereira. Me especializo en desarrollo web con React y Node.js.</p>
+
+      <p>Me interesa profundamente la intersección entre tecnología y diseño. Creo que la seguridad no es una característica extra, sino la base de cualquier software moderno. Como estudiante de la UTP, me dedico a entender cómo funcionan las amenazas digitales para construir herramientas que garanticen la privacidad y la confianza de las personas en el entorno digital.</p>
+
+      <p>Fuera del código, me gusta hacer ejercicio y las motos.</p>
+
       <div class="stats-row">
+
         <div class="stat-item"><div class="stat-num">1</div><div class="stat-label">Proyectos</div></div>
+
         <div class="stat-item"><div class="stat-num">2</div><div class="stat-label">Años codificando</div></div>
+
         <div class="stat-item"><div class="stat-num">1°</div><div class="stat-label">Semestre actual</div></div>
+
       </div>
+
     </div>
+
     <div class="skills-grid reveal">
+
       <h3 style="font-family:'Playfair Display',serif;margin-bottom:1.5rem;font-size:1.15rem;">Habilidades técnicas</h3>
+
       <div class="skill-item"><label>React / Next.js <span>80%</span></label><div class="skill-bar"><div class="skill-fill" data-width="80"></div></div></div>
+
       <div class="skill-item"><label>Node.js / JavaScript <span>80%</span></label><div class="skill-bar"><div class="skill-fill" data-width="80"></div></div></div>
+
       <div class="skill-item"><label>Python <span>100%</span></label><div class="skill-bar"><div class="skill-fill" data-width="100"></div></div></div>
-      <div class="skill-item"><label>SQL / PostgreSQL <span>75%</span></label><div class="skill-bar"><div class="skill-fill" data-width="75"></div></div></div>
-      <div class="skill-item"><label>Java <span>70%</span></label><div class="skill-bar"><div class="skill-fill" data-width="70"></div></div></div>
+
+      <div class="skill-item"><label>SQL / PostgreSQL <span>40%</span></label><div class="skill-bar"><div class="skill-fill" data-width="40"></div></div></div>
+
+      <div class="skill-item"><label>Java <span>55%</span></label><div class="skill-bar"><div class="skill-fill" data-width="55"></div></div></div>
+
       <div class="skill-item"><label>Git / GitHub <span>90%</span></label><div class="skill-bar"><div class="skill-fill" data-width="90"></div></div></div>
+
     </div>
+
   </div>
+
 </section>
+
+
 
 <!-- PROYECTOS -->
+
 <section id="proyectos">
+
   <div class="section-header reveal">
+
     <span class="section-number">02 — Proyectos</span>
+
     <h2 class="section-title">Trabajo <em>selecto</em></h2>
+
   </div>
+
   <div class="projects-grid">
+
     <div class="project-card reveal">
+
       <div class="project-num">Proyecto 01</div>
+
       <div class="project-arrow">↗</div>
+
       <h3 class="project-title">Jabberwock Perfumes</h3>
+
       <p class="project-desc">Plataforma web que muestra las esencias de los perfumes.</p>
+
       <div class="project-tags"><span class="tag">css</span><span class="tag">script.js</span><span class="tag">html</span></div>
+
     </div>
+
     <div class="project-card reveal">
+
       <div class="project-num">Proyecto 02</div>
+
       <div class="project-arrow">↗</div>
+
       <h3 class="project-title"></h3>
+
       <p class="project-desc"></p>
+
       <div class="project-tags"><span class="tag"></span><span class="tag"></span><span class="tag"></span></div>
+
     </div>
+
     <div class="project-card reveal">
+
       <div class="project-num">Proyecto 03</div>
+
       <div class="project-arrow">↗</div>
+
       <h3 class="project-title"></h3>
+
       <p class="project-desc"></p>
+
       <div class="project-tags"><span class="tag"></span><span class="tag"></span><span class="tag"></span></div>
+
     </div>
+
   </div>
+
 </section>
+
+
 
 <!-- EDUCACIÓN -->
+
 <section id="educacion">
+
   <div class="section-header reveal">
+
     <span class="section-number">03 — Educación</span>
+
     <h2 class="section-title">Mi <em>trayectoria</em><br>académica</h2>
+
   </div>
+
   <div class="edu-timeline">
+
     <div class="edu-item">
-      <div class="edu-year">2026 — Presente</div>
-      <div class="edu-degree">Desarrollo de Software</div>
-      <div class="edu-school">Universidad Tecnológica de Pereira</div>
-      <div class="edu-desc">Promedio acumulado: 4.3/5.0.</div>
+
+      <div class="edu-year">2015-2019</div>
+
+      <div class="edu-degree">Primaria</div>
+
+      <div class="edu-school">Centro Pedagogico de la Esperanza</div>
+
+      <div class="edu-desc">Deportista</div>
+
     </div>
+
     <div class="edu-item">
-      <div class="edu-year">2026</div>
-      <div class="edu-degree">Certificación Full-Stack Development</div>
-      <div class="edu-school">The Odin Project · Online</div>
-      <div class="edu-desc">+200 horas en desarrollo web moderno con React, Node.js y bases de datos.</div>
-    </div>
-    <div class="edu-item">
-      <div class="edu-year">2024-2025</div>
-      <div class="edu-degree">Diplomado en tecnico de sistemas</div>
-      <div class="edu-school">Sena</div>
-      <div class="edu-desc">Diseño y mantenimiento de sistemas informáticos.</div>
-    </div>
-    <div class="edu-item">
+
       <div class="edu-year">2020-2025</div>
-      <div class="edu-degree">Bachiller Académico</div>
+
+      <div class="edu-degree">Secundaria</div>
+
       <div class="edu-school">Colegio Institucion Educativa Cristo Rey, Dosquebradas</div>
+
       <div class="edu-desc">Graduado con honores. Deportista de élite.</div>
+
     </div>
+
+    <div class="edu-item">
+
+      <div class="edu-year">2024-2025</div>
+
+      <div class="edu-degree">Certificado en tecnico de sistemas</div>
+
+      <div class="edu-school">Sena</div>
+
+      <div class="edu-desc">Diseño y mantenimiento de sistemas informáticos.</div>
+
+    </div>
+
+    <div class="edu-item">
+
+      <div class="edu-year">2026-Presente</div>
+
+      <div class="edu-degree">Desarrollo de Software</div>
+
+      <div class="edu-school">Universidad Tecnológica de Pereira</div>
+
+      <div class="edu-desc">Estudiante de pregrado en Desarrollo de Software y Deportista.</div>
+
+    </div>
+
   </div>
+
 </section>
+
+
 
 <!-- CONTACTO -->
+
 <section id="contacto">
+
   <div class="section-header reveal">
+
     <span class="section-number">04 — Contacto</span>
-    <h2 class="section-title">Hablemos de tu<br><em>próximo proyecto</em></h2>
+
+    <h2 class="section-title">Hablemos de mi<br><em>próximo proyecto</em></h2>
+
   </div>
+
   <div class="contact-grid">
-    <div>
-      <p class="contact-intro">Estoy disponible para prácticas, proyectos freelance y colaboraciones académicas.</p>
-      <div class="contact-links">
-        <a href="mailto:teban080915@gmail.com" class="contact-link">
-          <span class="contact-link-icon">✉</span> teban080915@gmail.com
-        </a>
-        <a href="https://www.linkedin.com/in/juan-esteban-gonzalez-519751359?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="contact-link">
-          <span class="contact-link-icon">in</span> https://www.linkedin.com/in/juan-esteban-gonzalez-519751359?utm_source=share_via&utm_content=profile&utm_medium=member_android
-        </a>
-        <a href="https://github.com/Juan-Gonzalez48/nash.git" class="contact-link">
-          <span class="contact-link-icon">gh</span> https://github.com/Juan-Gonzalez48/nash.git
-        </a>
-      </div>
-    </div>
-    <div>
+                <div>
+                    <p class="contact-intro">Disponible para prácticas, proyectos freelance y colaboraciones académicas.</p>
+                    <div class="contact-links">
+                        <a href="mailto:teban080915@gmail.com" class="social-icon-link reveal" title="Email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/juan-esteban-gonzalez-519751359" target="_blank" class="social-icon-link reveal" title="LinkedIn">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/Juan-Gonzalez48" target="_blank" class="social-icon-link reveal" title="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <input type="text" placeholder="Tu nombre">
+                    <input type="email" placeholder="Tu correo">
+                    <textarea placeholder="Cuéntame qué te gustó..."></textarea>
+                    <button class="btn btn-white">Enviar mensaje →</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
       <div class="contact-form">
+
         <input type="text" id="name" placeholder="Tu nombre">
+
         <input type="email" id="email" placeholder="Tu correo electrónico">
+
         <textarea id="message" placeholder="Cuéntame lo que te gusto…"></textarea>
+
         <button class="btn btn-white" onclick="sendForm()">Enviar mensaje →</button>
+
         <p class="form-msg" id="form-msg">¡Mensaje enviado! Te responderé pronto.</p>
+
       </div>
+
     </div>
+
   </div>
+
 </section>
 
+
+
 <!-- FOOTER -->
+
 <footer>
-  <span>© 2026 Juan Esteban Gonzalez Castro · Dosquebradas, Colombia</span>
+
+  <span>© 2026 Juan Esteban Gonzalez Castro</span>
+
   <div style="display:flex;gap:1.5rem;">
+
     <a href="#sobre-mi">Sobre mí</a>
+
     <a href="#proyectos">Proyectos</a>
+
     <a href="#contacto">Contacto</a>
+
   </div>
+
 </footer>
 
+
+
 <script src="script.js"></script>
+
 </body>
+
 </html>
