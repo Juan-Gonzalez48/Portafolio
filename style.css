@@ -290,10 +290,33 @@ footer a:hover { color: var(--accent); }
 
 /* ─── RESPONSIVE ─── */
 @media (max-width: 768px) {
-  .hero { grid-template-columns: 1fr; }
-  .hero-right { min-height: 260px; }
-  .about-grid, .contact-grid { grid-template-columns: 1fr; gap: 3rem; }
+  /* NAV */
   .nav-links { display: none; }
-  .stats-row { gap: 2rem; flex-wrap: wrap; }
+
+  /* HERO */
+  .hero { grid-template-columns: 1fr; }
   .hero-left { padding: 3rem 5vw; }
+  .hero-right { min-height: 260px; }
+
+  /* SOBRE MI */
+  .about-grid { grid-template-columns: 1fr; gap: 3rem; }
+  .stats-row { gap: 2rem; flex-wrap: wrap; }
+
+  /* CONTACTO */
+  .contact-grid { grid-template-columns: 1fr; gap: 3rem; }
+  .contact-link { 
+    word-break: break-all; 
+    font-size: 0.78rem;
+  }
+  .contact-intro { font-size: 0.9rem; }
+
+  /* GENERAL */
+  section { padding: 4rem 5vw; }
+  .section-title { font-size: 1.8rem; }
+
+  /* EVITAR DESBORDAMIENTO */
+  * { max-width: 100%; }
+  body { overflow-x: hidden; }
+  .contact-form input,
+  .contact-form textarea { width: 100%; box-sizing: border-box; }
 }
